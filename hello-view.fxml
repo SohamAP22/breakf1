@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="569.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.HelloController">
+    <children>
+        <Label alignment="CENTER" layoutX="186.0" layoutY="14.0" prefHeight="60.0" prefWidth="223.0" text="Breakfast Food Items">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Pane layoutX="10.0" layoutY="80.0" prefHeight="100.0" prefWidth="100.0">
+            <children>
+                <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="C:\Users\Sanika Rane\IdeaProjects\demo2\src\main\java\com\example\demo2\Assets\20Ounce_NYAS-Apples2.png" />
+               </image>
+                </ImageView>
+            </children>
+        </Pane>
+        <Pane layoutX="450.0" layoutY="275.0" prefHeight="100.0" prefWidth="100.0">
+            <children>
+                <ImageView fitHeight="100.0" fitWidth="108.0" layoutX="-5.0" pickOnBounds="true">
+                    <image>
+                        <Image url="C:\Users\Sanika Rane\IdeaProjects\demo2\src\main\java\com\example\demo2\Assets\8805-CrispyFriedChicken-mfs-3x2-072.jpg" />
+                    </image>
+                </ImageView>
+            </children>
+        </Pane>
+        <Pane layoutX="300.0" layoutY="275.0" prefHeight="100.0" prefWidth="100.0">
+            <children>
+                <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true">
+                    <image>
+                        <Image url="C:\Users\Sanika Rane\IdeaProjects\demo2\src\main\java\com\example\demo2\Assets\front-view-tasty-meat-burger-wit.jpg" />
+                    </image>
+                </ImageView>
+            </children>
+        </Pane>
+        <Pane layoutX="150.0" layoutY="275.0" prefHeight="100.0" prefWidth="100.0">
+            <children>
+                <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true">
+                    <image>
+                        <Image url="C:\Users\Sanika Rane\IdeaProjects\demo2\src\main\java\com\example\demo2\Assets\Bananas-218094b-scaled.jpg" />
+                    </image>
+                </ImageView>
+            </children>
+        </Pane>
+        <Pane layoutX="10.0" layoutY="275.0" prefHeight="100.0" prefWidth="100.0">
+            <children>
+                <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="C:\Users\Sanika Rane\IdeaProjects\demo2\src\main\java\com\example\demo2\Assets\hakka-noodles-recipe.jpg" />
+                    </image>
+                </ImageView>
+            </children>
+        </Pane>
+        <Pane layoutX="150.0" layoutY="80.0" prefHeight="100.0" prefWidth="100.0">
+            <children>
+                <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true">
+                    <image>
+                        <Image url="C:\Users\Sanika Rane\IdeaProjects\demo2\src\main\java\com\example\demo2\Assets\10-best-mid-range-Italian-Pizzeria-in-Gurgaon.jpg"/>
+                    </image>
+                </ImageView>
+            </children>
+        </Pane>
+        <Pane layoutX="450.0" layoutY="80.0" prefHeight="100.0" prefWidth="100.0">
+            <children>
+                <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\Sanika Rane\IdeaProjects\demo2\src\main\java\com\example\demo2\Assets\Standards.png" />
+               </image>
+                </ImageView>
+            </children>
+        </Pane>
+        <Pane layoutX="300.0" layoutY="80.0" prefHeight="100.0" prefWidth="100.0">
+            <children>
+                <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true">
+                    <image>
+                        <Image url="C:\Users\Sanika Rane\IdeaProjects\demo2\src\main\java\com\example\demo2\Assets\cooked-plain-white-basmati-rice-steamed-rice-bowl_466689-74907.jpg" />
+                    </image>
+                </ImageView>
+            </children>
+        </Pane>
+        <Label layoutX="46.0" layoutY="180.0" text="Apple" />
+        <Label layoutX="186.0" layoutY="180.0" text="Pizza" />
+        <Label layoutX="338.0" layoutY="180.0" text="Rice" />
+        <Label layoutX="486.0" layoutY="180.0" text="Milk" />
+        <Label layoutX="38.0" layoutY="384.0" text="Noodles" />
+        <Label layoutX="180.0" layoutY="384.0" text="Banana" />
+        <Label layoutX="331.0" layoutY="384.0" text="Burger" />
+        <Label layoutX="488.0" layoutY="384.0" text="Chicken" />
+        <TextField fx:id="apple" layoutX="46.0" layoutY="217.0" prefHeight="26.0" prefWidth="31.0" />
+        <TextField fx:id="chicken" layoutX="486.0" layoutY="407.0" prefHeight="26.0" prefWidth="57.0" promptText="in gram " />
+        <TextField fx:id="pizza" layoutX="184.0" layoutY="216.0" prefHeight="26.0" prefWidth="31.0" />
+        <TextField fx:id="burger" layoutX="334.0" layoutY="408.0" prefHeight="26.0" prefWidth="31.0" />
+        <TextField fx:id="banana" layoutX="184.0" layoutY="408.0" prefHeight="26.0" prefWidth="31.0" />
+        <TextField fx:id="milk" layoutX="482.0" layoutY="217.0" prefHeight="26.0" prefWidth="42.0" promptText="in ltr." />
+        <TextField fx:id="rice" layoutX="334.0" layoutY="217.0" prefHeight="26.0" prefWidth="46.0" promptText="katori" />
+        <TextField fx:id="noodles" layoutX="44.0" layoutY="408.0" prefHeight="26.0" prefWidth="46.0" promptText="katori" />
+        <Label layoutX="20.0" layoutY="221.0" text="Qtn:" />
+        <Label layoutX="460.0" layoutY="412.0" text="Qtn:" />
+        <Label layoutX="309.0" layoutY="412.0" text="Qtn:" />
+        <Label layoutX="161.0" layoutY="412.0" text="Qtn:" />
+        <Label layoutX="20.0" layoutY="412.0" text="Qtn:" />
+        <Label layoutX="309.0" layoutY="220.0" text="Qtn:" />
+        <Label layoutX="161.0" layoutY="221.0" text="Qtn:" />
+        <Label layoutX="460.0" layoutY="220.0" text="Qtn:" />
+        <Button fx:id="savebtn" layoutX="248.0" layoutY="448.0" mnemonicParsing="false" onAction="#calculatecal" prefHeight="35.0" prefWidth="100.0" text="Save">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+      <TextField fx:id="totalcal" layoutX="46.0" layoutY="508.0" prefHeight="26.0" prefWidth="170.0" />
+      <TextField fx:id="grade" layoutX="375.0" layoutY="508.0" prefHeight="26.0" prefWidth="170.0" />
+      <Label layoutX="61.0" layoutY="491.0" text="Total comsumed calories">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="446.0" layoutY="491.0" text="Grade">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
